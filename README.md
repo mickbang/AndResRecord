@@ -18,7 +18,7 @@
 13. 路由框架:[ARouter](https://github.com/alibaba/ARouter)
 14. 图片压缩:[Luban](https://github.com/Curzibn/Luban)
 15. 动画框架:[AndroidViewAnimations](https://github.com/daimajia/AndroidViewAnimations)
-16. 图片视频选择库:[知乎Matisse](https://github.com/zhihu/Matisse)
+16. 图片视频选择库:[知乎Matisse](https://github.com/zhihu/Matisse) [PictureSelector](https://github.com/LuckSiege/PictureSelector)
 17. 权限管理: [PermissionsDispatcher](https://github.com/permissions-dispatcher/PermissionsDispatcher) [RxPermissions](https://github.com/tbruyelle/RxPermissions)
 18. 文件下载器: [FileDownloader](https://github.com/lingochamp/FileDownloader)
 19. mvp快速搭建: [MVPArms](https://github.com/JessYanCoding/MVPArms)
