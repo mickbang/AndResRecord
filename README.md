@@ -5,4 +5,5 @@
 2. 日历控件:[calendarview](https://github.com/huanghaibin-dev/CalendarView)
 3. 强大的图表库:[MPAndroidChart](https://github.com/PhilJay/MPAndroidChart)
 4. 集合了各种utils的库:[AndroidUtilCode](https://github.com/Blankj/AndroidUtilCode)
-5. 
+5. 水流特效:[waveView](https://github.com/gelitenight/WaveView)  
+![waveView](https://github.com/mickbang/WaveView/raw/master/screenshot.gif)
