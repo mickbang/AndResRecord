@@ -1,4 +1,3 @@
-package com.client.deinsight.util;
 
 public class VersionUtil {
     public static int[] getCanonicalVersion(String version) {
