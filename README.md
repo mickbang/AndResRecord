@@ -26,3 +26,21 @@
 21. 屏幕适配: [今日头条终极方案AndroidAutoSize](https://github.com/JessYanCoding/AndroidAutoSize)
 22. 修改glide加载图片的效果(圆形/圆角):[glide-transformations](https://github.com/wasabeef/glide-transformations)
 23. 好用的tabBar: [SmartTabLayout](https://github.com/ogaclejapan/SmartTabLayout)
+## 二.常用的代码片段
+1. 点击两次退户app  
+(''')
+private static final int TIME_EXIT=2000;
+    private long mBackPressed;
+
+    @Override
+    public void onBackPressed(){
+        if(mBackPressed+TIME_EXIT>System.currentTimeMillis()){
+            super.onBackPressed();
+            return;
+        }else{
+            Toast.makeText(this,"再点击一次返回退出程序",Toast.LENGTH_SHORT).show();
+            mBackPressed=System.currentTimeMillis();
+
+        }
+    }
+(''')
