@@ -6,13 +6,17 @@
 3. 强大的图表库:[MPAndroidChart](https://github.com/PhilJay/MPAndroidChart)
 4. 集合了各种utils的库:[AndroidUtilCode](https://github.com/Blankj/AndroidUtilCode)
 5. 水流特效:[waveView](https://github.com/gelitenight/WaveView)  
-![waveView](https://github.com/mickbang/WaveView/raw/master/screenshot.gif)  
+&nbsp;
+![waveView](https://github.com/mickbang/WaveView/raw/master/screenshot.gif)
+&nbsp;
 6. Android上拉加载下拉刷新:[SmartRefreshLayout](https://github.com/scwang90/SmartRefreshLayout)
 7. Android RecyclerView适配器:[BRVA](https://github.com/CymChad/BaseRecyclerViewAdapterHelper)
 8. 视频播放器:[ijkplayer](https://github.com/bilibili/ijkplayer) [ExoPlayer](https://github.com/google/ExoPlayer) [GSYVideoPlayer](https://github.com/CarGuo/GSYVideoPlayer) [JiaoZiVideoPlayer](https://github.com/lipangit/JiaoZiVideoPlayer)
 9. material风格的dialog:[material-dialogs](https://github.com/afollestad/material-dialogs)
 10. Android可伸缩布局:[flexbox-layout](https://github.com/google/flexbox-layout)  
+&nbsp;
 ![flexbox-layout](https://github.com/google/flexbox-layout/raw/master/assets/flexbox-layoutmanager.gif)
+&nbsp;
 11. 圆形图片控件:[CircleImageView](https://github.com/hdodenhof/CircleImageView)
 12. 滴滴研发助手:[DoraemonKit](https://github.com/didi/DoraemonKit)
 13. 路由框架:[ARouter](https://github.com/alibaba/ARouter)
@@ -28,8 +32,8 @@
 23. 好用的tabBar: [SmartTabLayout](https://github.com/ogaclejapan/SmartTabLayout)
 ## 二.常用的代码片段
 1. 点击两次退户app  
-(''')
-private static final int TIME_EXIT=2000;
+```
+    private static final int TIME_EXIT=2000;
     private long mBackPressed;
 
     @Override
@@ -43,4 +47,4 @@ private static final int TIME_EXIT=2000;
 
         }
     }
-(''')
+```
