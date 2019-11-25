@@ -50,6 +50,9 @@
 ```  
 2. gradle重命名打包apk  
 ```  
+def releaseTime() {
+    return new Date().format("yyyyMMdd", TimeZone.getTimeZone("UTC"))
+}
   android.applicationVariants.all { variant ->
         variant.outputs.all {
             outputFileName = "DE Insight_${variant.name}-v${variant.versionName}-${releaseTime()}.apk"
