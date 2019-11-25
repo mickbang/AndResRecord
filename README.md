@@ -47,4 +47,24 @@
 
         }
     }
+```  
+2. gradle重命名打包apk  
+```  
+  android.applicationVariants.all { variant ->
+        variant.outputs.all {
+            outputFileName = "DE Insight_${variant.name}-v${variant.versionName}-${releaseTime()}.apk"
+        }
+    }
+```  
+3. gradle读取local.properties文件  
 ```
+ Properties properties = new Properties()
+        properties.load(project.rootProject.file('local.properties').newDataInputStream())
+        release {
+            keyAlias properties.get("KEY_ALIAS")
+            keyPassword properties.get("KEY_PASSWORD")
+            storePassword properties.get("STORE_PASSWORD")
+            storeFile file(properties.get("STORE_FILE_PATH"))
+        }
+```
+
