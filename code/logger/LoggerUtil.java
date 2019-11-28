@@ -1,5 +1,7 @@
 public class LoggerUtil {
     /**
+     * 
+     * 在application中初始化
      * 初始化log工具，在app入口处调用
      *
      * @param isLogEnable 是否打印log
@@ -41,5 +43,5 @@ public class LoggerUtil {
     }
 
 
-    
+
 }
