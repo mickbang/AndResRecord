@@ -1,6 +1,6 @@
 public class LoggerUtil {
     /**
-     * 
+     * 引入依赖:com.orhanobut:logger:2.2.0
      * 在application中初始化
      * 初始化log工具，在app入口处调用
      *
