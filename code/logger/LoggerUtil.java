@@ -39,3 +39,7 @@ public class LoggerUtil {
     public static void json(String json) {
         Logger.json(json);
     }
+
+
+    
+}

@@ -26,3 +26,4 @@ public class HttpLogger implements HttpLoggingInterceptor.Logger {
             LoggerUtil.d(mMessage.toString());
         }
     }
+}
