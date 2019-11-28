@@ -30,6 +30,7 @@
 21. 屏幕适配: [今日头条终极方案AndroidAutoSize](https://github.com/JessYanCoding/AndroidAutoSize)
 22. 修改glide加载图片的效果(圆形/圆角):[glide-transformations](https://github.com/wasabeef/glide-transformations)
 23. 好用的tabBar: [SmartTabLayout](https://github.com/ogaclejapan/SmartTabLayout)
+24. 大神封装的Logger: [Logger](https://github.com/orhanobut/logger)
 ## 二.常用的代码片段
 1. 点击两次退户app  
 ```
